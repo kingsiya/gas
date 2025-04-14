@@ -1,0 +1,68 @@
+
+
+/* Slider frame: Acts as the viewport for the slideshow */
+.slider-frame {
+    overflow: hidden; /* Ensures content outside the container isn't visible */
+    height: 800px; /* Fixed height for the slider */
+    width: 1200px; /* Fixed width for the slider */
+    margin-left: 1rem Centers the slider horizontally */
+    margin-top: 20px; /* Adds space above the slider */
+    left: -19%;/* Positions the slider frame */
+    position: absolute; /* Positions the element within the document flow */
+}
+
+/* Animation keyframes for sliding effect */
+@keyframes slide_animation {
+    0% {left: 0px;} /* First slide fully visible */
+    10% {left: 0px;} /* Keeps Slide 1 displayed */
+    20% {left: 1200px;} /* Moves to Slide 2 */
+    30% {left: 1200px;} /* Keeps Slide 2 displayed */
+    40% {left: 2400px;} /* Moves to Slide 3 */
+    50% {left: 2400px;} /* Keeps Slide 3 displayed */
+    60% {left: 1200px;} /* Moves back to Slide 2 */
+    70% {left: 1200px;} /* Keeps Slide 2 displayed */
+    80% {left: 0px;} /* Moves back to Slide 1 */
+    90% {left: 0px;} /* Keeps Slide 1 displayed */
+    100% {left: 0px;} /* Resets to Slide 1 */
+}
+
+/* WebKit-compatible keyframes */
+@-webkit-keyframes slide_animation {
+    0% {left: 0px;} /* First slide fully visible */
+    10% {left: 0px;} /* Keeps Slide 1 displayed */
+    20% {left: 1200px;} /* Moves to Slide 2 */
+    30% {left: 1200px;} /* Keeps Slide 2 displayed */
+    40% {left: 2400px;} /* Moves to Slide 3 */
+    50% {left: 2400px;} /* Keeps Slide 3 displayed */
+    60% {left: 1200px;} /* Moves back to Slide 2 */
+    70% {left: 1200px;} /* Keeps Slide 2 displayed */
+    80% {left: 0px;} /* Moves back to Slide 1 */
+    90% {left: 0px;} /* Keeps Slide 1 displayed */
+    100% {left: 0px;} /* Resets to Slide 1 */
+}
+
+/* Sliding images container */
+.slide-images-xp {
+    width: 3600px; /* Combined width of all slides (3 slides x 1200px each) */
+    height: 800px; /* Matches the slider frame height */
+    margin: 0 0 0 -2400px; /* Starts the position at Slide 1 */
+    position: relative; /* Enables sliding animation */
+    -webkit-animation-name: slide_animation; /* Links WebKit-compatible keyframes */
+    animation-name: slide_animation; /* Links standard keyframes */
+    -webkit-animation-duration: 20s; /* Reduced time for one cycle (20 seconds total) */
+    animation-duration: 20s; /* Reduced time for one cycle (20 seconds total) */
+    -webkit-animation-iteration-count: infinite; /* Loops the animation endlessly */
+    animation-iteration-count: infinite; /* Loops the animation endlessly */
+    -webkit-animation-direction: alternate; /* Moves forward and backward alternately */
+    animation-direction: alternate; /* Moves forward and backward alternately */
+    -webkit-animation-play-state: running; /* Ensures the animation starts automatically */
+    animation-play-state: running; /* Ensures the animation starts automatically */
+}
+
+/* Individual image containers */
+.img-container {
+    height: 800px; /* Matches the slider frame height */
+    width: 1200px; /* Matches the slider frame width */
+    position: relative; /* Ensures images are positioned inside the container */
+    float: left; /* Aligns images horizontally (side-by-side) */
+}
