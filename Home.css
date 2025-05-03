@@ -1,23 +1,34 @@
-
-
+.wrapper{
+  width: vw;
+  position: absolute;
+  right: 1%;
+  margin:0 auto;
+  com
+  
+}
 /* decor -----------------------------------------*/
 .upper-arc{
-      height: 6rem;
-    background-color: #0c311f;
-    width: 100%;
-    clip-path: ellipse(57% 100% at bottom);
+  height: 6rem;
+background-color: #a4ff6e;
+width: 100%;
+clip-path: ellipse(57% 100% at bottom);
 }
 .bottom-arc{    width: 100%;
-  /* width: 100%; */
-  background-color: #0c311f;
-  height: 6rem;
-  clip-path: ellipse(59% 100% at top);
-  /* border: dotted white; guide  */
+/* width: 100%; */
+background-color: #a4ff6e;
+height: 6rem;
+clip-path: ellipse(59% 100% at top);
+/* border: dotted white; guide  */
 }
-/* General Styles */
+
+
+
+
+/*--------------------------- General Styles--------------- */
 body {
   font-family: 'Arial', sans-serif; /* Sets a clean, modern font */
-  margin: 0; /* Removes default spacing */
+  margin-left:1%;
+  margin-right: 1%; /* Removes default spacing */
   padding: 0; /* Prevents unwanted margins */
   background-color: #0c0c0c; /* Light gray background */
 }
@@ -27,7 +38,7 @@ body {
   font-family: Arial, sans-serif; /* Sets a clean font */
 }
 
-/* Navigation Bar */
+/*----------------- Navigation Bar------------------------- */
 nav {
   display: flex; /* Aligns items horizontally */
   justify-content: space-between; /* Spaces elements evenly */
@@ -37,32 +48,40 @@ nav {
   
 }
 
-/* Logo */
+/*------------------- Logo----------------------------- */
 .logo img {
-  width: 120px; /* Logo size */
-  height: auto; /* Maintains aspect ratio */
+  width: 16.3rem;           /* Logo size */
+  height: auto;             /* Maintains aspect ratio */
 }
 
-/* Navigation Links */
+.company_name{
+  color:#ffffff; 
+  font-size: 26px;
+  
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif ;
+
+}
+/* ----------------------Navigation Links -----------------*/
 .nav-links {
-  list-style: none; /* Removes bullet points */
+  list-style: none;       /* Removes bullet points */
   padding: 0;
   margin: 0;
-  display: flex; /* Aligns links in a row */
+  display: flex;          /* Aligns links in a row */
 }
 
 .nav-links li {
-  margin: 0 15px; /* Space between menu items */
+  margin: 0 15px;         /* Space between menu items */
 }
 
 .nav-links a {
   text-decoration: none; /* Removes underline */
-  color: white; /* Text color */
-  font-weight: bold; /* Bold text */
-  font-size: 16px; /* Text size */
+  color: white;       /* Text color */
+  font-weight: bold;    /* Bold text */
+  font-size: 1.2rem;      /* Text size */
 }
 
-/* "Get in Touch" Button */
+/*--- "Get in Touch" Button-------------------------------- */
 .btn {
   display: inline-block; /* Makes it act like a button */
   padding: 12px 40px; /* Button size */
@@ -78,22 +97,21 @@ nav {
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
-/* Button Hover Effect */
+/*----------------- Button Hover Effect -------------------*/
 .btn:hover {
   background-color: white; /* Background change on hover */
   color: black; /* Text color change on hover */
 }
 
-/* Hero Section */
+/*------------------------------- Hero Section --------*/
 
-/*
-/* Hero Section */
+
 .hero {
-  background-color: #090909;/* Sets the background color */
+  background-color: black;/* Sets the background color */
   text-align: center; /* Centers text */
   padding: 100px 20px; /* Adds spacing */
   color: white; /* Sets text color */
-  font-size: 24px; /* Adjusts text size */
+  font-size: 17px; /* Adjusts text size */
   font-weight: bold; /* Makes text bold */
    /* Creates an ellipse-shaped bottom */
    clip-path: ellipse(90% 90% at top);
@@ -116,12 +134,11 @@ nav {
   width: 100%;
   margin: auto;
   overflow: hidden;
-  background-color: #0c311f;
+  background-color: #a4ff6e;
   padding-top: 12%;
   padding-bottom: 12%;
   clip-path: ellipse(131% 100% at top);
   /* Create a subtle rounded shape at the bottom */
-  /* clip-path: ellipse(80% 50% at bottom); */
 }
 
 .mn-img{
@@ -196,7 +213,7 @@ nav {
 
 /* Style for the h1 inside .design-excellence */
 .design-excellence h1 {
-  color: green; /* Changes the text color to green */
+  color: rgb(249, 253, 249); /* Changes the text color to green */
 }
 
 /* Field of Operation Section */
@@ -205,7 +222,10 @@ nav {
   color: white; /* Light text */
   text-align: center; /* Center everything */
   padding: 80px 20px; /* Adjust space inside */
-  background-color: #0c311f;
+  background-color: #a4ff6e;
+  font-size: larger;
+  text-decoration: underline white;
+  
 }
 
 /* Individual Operation Items */
@@ -225,9 +245,10 @@ nav {
 
 /* Titles */
 .operation-item h2 {
-  color: green; /* Highlights section titles */
-  font-size: 22px;
+  color: rgb(255, 255, 255); /* Highlights section titles */
+  font-size: 35px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 /* Descriptions */
@@ -447,3 +468,26 @@ nav {
 
 
 /* Contact Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
