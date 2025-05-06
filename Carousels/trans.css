@@ -4,18 +4,20 @@
   text-decoration:none; 
   text-align: center;
   padding: 1em 2em; 
+  font-size: 16px;
   width: 10em;
   border-radius: 1.5em;
   color: #fff; 
   background-color: mediumblue; 
-  transition-property: all;
-  transition-property:color ; 
-  transition-duration:0.3s; 
+  transition:color 5s ease-in-out , font-size 3s ease-in, background-color 10ms step-end;
 
 }
  .smooth:hover, .smooth:focus { 
-
+font-size: 20px;
   background-color: red; 
   border: solid mediumblue;
+  color: black;
   
 }
+
+

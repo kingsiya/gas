@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../flags"
+		},
+		{
+			"path": "../home"
+		},
+		{
+			"path": "../Photos"
+		}
+	]
+=======
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../flags"
+		},
+		{
+			"path": "../home"
+		},
+		{
+			"path": "../Photos"
+		}
+	]
+>>>>>>> 658d7a6d806133d049723c42a2ac35b5d7864ee6
+}

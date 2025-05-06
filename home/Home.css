@@ -1,0 +1,449 @@
+
+
+/* decor -----------------------------------------*/
+.upper-arc{
+      height: 6rem;
+    background-color: #0c311f;
+    width: 100%;
+    clip-path: ellipse(57% 100% at bottom);
+}
+.bottom-arc{    width: 100%;
+  /* width: 100%; */
+  background-color: #0c311f;
+  height: 6rem;
+  clip-path: ellipse(59% 100% at top);
+  /* border: dotted white; guide  */
+}
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Sets a clean, modern font */
+  margin: 0; /* Removes default spacing */
+  padding: 0; /* Prevents unwanted margins */
+  background-color: #0c0c0c; /* Light gray background */
+}
+body {
+  background-color: rgb(4, 4, 4); /* Sets the entire page's background to black */
+  color: white; /* Ensures text remains visible */
+  font-family: Arial, sans-serif; /* Sets a clean font */
+}
+
+/* Navigation Bar */
+nav {
+  display: flex; /* Aligns items horizontally */
+  justify-content: space-between; /* Spaces elements evenly */
+  align-items: center; /* Centers items vertically */
+  background-color: black; /* Dark background */
+  padding: 15px 30px; /* Space inside the nav */
+  
+}
+
+/* Logo */
+.logo img {
+  width: 120px; /* Logo size */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Aligns links in a row */
+}
+
+.nav-links li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+.nav-links a {
+  text-decoration: none; /* Removes underline */
+  color: white; /* Text color */
+  font-weight: bold; /* Bold text */
+  font-size: 16px; /* Text size */
+}
+
+/* "Get in Touch" Button */
+.btn {
+  display: inline-block; /* Makes it act like a button */
+  padding: 12px 40px; /* Button size */
+  background-color: black; /* Button color */
+  color: white; /* Text color */
+  font-size: 16px; /* Text size */
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Capital letters */
+  border: 2px solid white; /* White border */
+  border-radius: 50px; /* Rounded button */
+  cursor: pointer; /* Pointer effect */
+  text-decoration: none; /* Removes underline */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  background-color: white; /* Background change on hover */
+  color: black; /* Text color change on hover */
+}
+
+/* Hero Section */
+
+/*
+/* Hero Section */
+.hero {
+  background-color: #090909;/* Sets the background color */
+  text-align: center; /* Centers text */
+  padding: 100px 20px; /* Adds spacing */
+  color: white; /* Sets text color */
+  font-size: 24px; /* Adjusts text size */
+  font-weight: bold; /* Makes text bold */
+   /* Creates an ellipse-shaped bottom */
+   clip-path: ellipse(90% 90% at top);
+    /* Creates an ellipse-shaped bottom */
+  /* clip-path: ellipse(10% 10% at bottom); */
+
+ 
+}
+
+
+
+
+/* this is the slideshow-------------------------------------------------------------------------------------------------------------- */
+/* Slideshow Container */
+
+
+/* Slideshow Container */
+.main_photo{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #0c311f;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  clip-path: ellipse(131% 100% at top);
+  /* Create a subtle rounded shape at the bottom */
+  /* clip-path: ellipse(80% 50% at bottom); */
+}
+
+.mn-img{
+  /* border: aqua dotted; */
+    position: relative;
+    bottom: 5rem;
+    right:0.5% ;
+    width: min-content;
+    padding-left: 1rem;
+}
+.mn-img img{
+  width: 1498px;
+}
+/* Hide inactive slides */
+.slide {  
+  display: none; /* This ensures only one slide is visible at a time */
+}
+
+/* Show the first slide by default */
+.slide:first-child {
+  display: block;
+}
+
+/* Slide Images */
+.slide img {
+  max-width: 8rem;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.slide-images-xp img {
+  border-radius: 10%;
+}
+
+/* Navigation Buttons */
+.prev, .next {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Position Buttons */
+.prev { left:1rem; }
+.next { right: 1rem; }
+
+
+.slider-frame p{
+  color: yellow;
+  font-size: 2rem;
+}
+/* ---------------------------------------- this is a new section -------------------------------------- */
+/* Design Excellence Section */
+.design-excellence {
+  background-color: black; /* Dark background */
+  color: white; /* Light text */
+  text-align: center; /* Center everything */
+  padding: 80px 20px; /* Adjust space inside */
+  font-size: 20px; /* Slightly larger text */
+  font-weight: normal; /* Improve readability */
+  
+  /* Create a subtle rounded shape at the bottom */
+  /* clip-path: ellipse(80% 50% at bottom); */
+}
+
+
+
+/* Style for the h1 inside .design-excellence */
+.design-excellence h1 {
+  color: green; /* Changes the text color to green */
+}
+
+/* Field of Operation Section */
+.field-operation {
+  /* background-color: black; Dark background */
+  color: white; /* Light text */
+  text-align: center; /* Center everything */
+  padding: 80px 20px; /* Adjust space inside */
+  background-color: #0c311f;
+}
+
+/* Individual Operation Items */
+.operation-item {
+  display: inline-block; /* Aligns items side by side */
+  width: 30%; /* Sets width for each item */
+  margin: 20px; /* Adds spacing */
+  text-align: center; /* Centers text */
+}
+
+/* Images */
+.operation-item img {
+  width: 100%; /* Makes images responsive */
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds a soft shadow */
+}
+
+/* Titles */
+.operation-item h2 {
+  color: green; /* Highlights section titles */
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+/* Descriptions */
+.operation-item p {
+  font-size: 16px;
+  padding: 10px;
+}
+
+
+/* Major Projects Section */
+.major-projects {
+  background-color: black; /* Dark background */
+  color: white; /* Light text */
+  text-align: center; /* Center everything */
+  padding: 80px 20px; /* Space inside */
+}
+
+/* Project List */
+.project-list {
+  list-style: none; /* Removes default bullet points */
+  padding: 0;
+  font-size: 18px;
+}
+
+/* Navigation */
+.project-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.project-navigation .prev, .project-navigation .next {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 10px;
+  visibility: hidden !important;
+}
+
+/* Location */
+.location {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* ---------------------para in .slide-images-xp------------ */
+/* Dots */
+.dots {
+   visibility: hidden;
+    margin-top: 4rem;
+    left: 38.5rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 1rem;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+
+/* -------------------------------------------------- */
+
+/* Default Dot Styling */
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.6s ease; /* Smooth transition */
+}
+
+/* Active Dot Styling */
+.active-dot {
+  background-color: #0c311f; /* Active dot color */
+}
+
+/* Fade Transition for Slides */
+@keyframes fade {
+  from { opacity: 0; } /* Start transparent */
+  to { opacity: 1; } /* End fully visible */
+}
+
+.slide {
+  animation: fade 1.5s ease-in-out; /* Apply fade effect to slides */
+}
+
+
+
+/* Slider frame: Acts as the viewport for the slideshow */
+.slider-frame {
+  overflow: hidden; /* Ensures content outside the container isn't visible */
+  height: 800px; /* Fixed height for the slider */
+  width: 82rem; /* Fixed width for the slider */
+  margin-left: 27rem; /* Centers the slider horizontally */
+  margin-top: 4rem; /* Adds space above the slider */
+  position: absolute; /* Positions the element within the document flow */
+  left: -15%; /* Positions the slider frame */
+ 
+}
+
+/* Animation keyframes for sliding effect */
+@keyframes slide_animation {
+  0% {left: 0px;} /* First slide fully visible */
+  10% {left: 0px;} /* Keeps Slide 1 displayed */
+  20% {left: 1200px;} /* Moves to Slide 2 */
+  30% {left: 1200px;} /* Keeps Slide 2 displayed */
+  40% {left: 2400px;} /* Moves to Slide 3 */
+  50% {left: 2400px;} /* Keeps Slide 3 displayed */
+  60% {left: 1200px;} /* Moves back to Slide 2 */
+  70% {left: 1200px;} /* Keeps Slide 2 displayed */
+  80% {left: 0px;} /* Moves back to Slide 1 */
+  90% {left: 0px;} /* Keeps Slide 1 displayed */
+  100% {left: 0px;} /* Resets to Slide 1 */
+}
+
+/* WebKit-compatible keyframes */
+@-webkit-keyframes slide_animation {
+  0% {left: 0px;} /* First slide fully visible */
+  10% {left: 0px;} /* Keeps Slide 1 displayed */
+  20% {left: 1200px;} /* Moves to Slide 2 */
+  30% {left: 1200px;} /* Keeps Slide 2 displayed */
+  40% {left: 2400px;} /* Moves to Slide 3 */
+  50% {left: 2400px;} /* Keeps Slide 3 displayed */
+  60% {left: 1200px;} /* Moves back to Slide 2 */
+  70% {left: 1200px;} /* Keeps Slide 2 displayed */
+  80% {left: 0px;} /* Moves back to Slide 1 */
+  90% {left: 0px;} /* Keeps Slide 1 displayed */
+  100% {left: 0px;} /* Resets to Slide 1 */
+}
+
+/* Sliding images container */
+.slide-images-xp {
+  width: 3600px; /* Combined width of all slides (3 slides x 1200px each) */
+  height: 800px; /* Matches the slider frame height */
+  margin: 0 0 0 -2400px; /* Starts the position at Slide 1 */
+  position: relative; /* Enables sliding animation */
+  -webkit-animation-name: slide_animation; /* Links WebKit-compatible keyframes */
+  animation-name: slide_animation; /* Links standard keyframes */
+  -webkit-animation-duration: 20s; /* Reduced time for one cycle (20 seconds total) */
+  animation-duration: 20s; /* Reduced time for one cycle (20 seconds total) */
+  -webkit-animation-iteration-count: infinite; /* Loops the animation endlessly */
+  animation-iteration-count: infinite; /* Loops the animation endlessly */
+  -webkit-animation-direction: alternate; /* Moves forward and backward alternately */
+  animation-direction: alternate; /* Moves forward and backward alternately */
+  -webkit-animation-play-state: running; /* Ensures the animation starts automatically */
+  animation-play-state: running; /* Ensures the animation starts automatically */
+}
+
+/* Individual image containers */
+.img-container {
+  height: 800px; /* Matches the slider frame height */
+  width: 1200px; /* Matches the slider frame width */
+  position: relative; /* Ensures images are positioned inside the container */
+  float: left; /* Aligns images horizontally (side-by-side) */
+}
+
+
+
+/* -----------------------testing---------------------------------- */
+.testing{
+  width: 100%;
+  height: 7rem;
+  border: dotted;
+  position: relative;
+  top: 26rem;
+  background-color: #a4ff6e; /* Light green background */
+  text-align: center; /* Centers text and button */
+  padding: 50px 0; /* Adds space above and below */
+  border-radius: 10px; /* Smooth rounded corners */
+
+}
+
+/* Button Styling */
+.testing-btn {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  border: none; /* Removes border */
+  padding: 10px 20px; /* Adds space inside the button */
+  font-size: 1em; /* Regular font size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  border-radius: 5px; /* Smooth rounded edges */
+  margin-top: 20px; /* Adds space above the button */
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 40px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.testing-btn:hover {
+  background-color: #333; /* Slightly lighter shade on hover */
+}
+
+
+/* Contact Section */
