@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    padding: 20px;
+    margin:50px;
+display: flex;
+flex-direction:column;
+align-content: ;
+width: 90%;
+/* height: calc(50*16px); */
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: firebrick;
+
+    /* margin: 20px; */
+    
+    
+    text-align: center;
+
+}
+
+.item-1{
+    height: 30px;
+}
