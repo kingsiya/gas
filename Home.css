@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .wrapper{
   width: vw;
   position: absolute;
@@ -141,8 +141,10 @@ body {
   /* Create a subtle rounded shape at the bottom */
 }
 
+
+/* ----------------------------------------------- This is the main picture in the home styling-------------------------------*/
 .mn-img{
-  /* border: aqua dotted; */
+  border: aqua dotted 10px;
     position: relative;
     bottom: 5rem;
     right:0.5% ;
@@ -363,13 +365,14 @@ body {
 
 /* Slider frame: Acts as the viewport for the slideshow */
 .slider-frame {
+  border: #a4ff6e solid;
   overflow: hidden; /* Ensures content outside the container isn't visible */
-  height: 800px; /* Fixed height for the slider */
-  width: 82rem; /* Fixed width for the slider */
+  height: 10px; /* Fixed height for the slider */
+  width: 2rem; /* Fixed width for the slider */
   margin-left: 27rem; /* Centers the slider horizontally */
   margin-top: 4rem; /* Adds space above the slider */
-  position: absolute; /* Positions the element within the document flow */
-  left: -15%; /* Positions the slider frame */
+  position: relative; /* Positions the element within the document flow */
+  left: 0; /* Positions the slider frame */
  
 }
 
@@ -430,6 +433,12 @@ body {
 }
 
 
+
+/*   This is the styling of the flags       */
+.flags{
+  margin: 0 auto;
+  width: 114px;
+}
 
 /* -----------------------testing---------------------------------- */
 .testing{
@@ -499,13 +508,13 @@ body {
 
 
 
-=======
+
 .wrapper{
   width: vw;
   position: absolute;
   right: 1%;
   margin:0 auto;
-  com
+  
   
 }
 /* decor -----------------------------------------*/
@@ -720,7 +729,7 @@ nav {
 
 /* Field of Operation Section */
 .field-operation {
-  /* background-color: black; Dark background */
+  border: dotted 20px red;
   color: white; /* Light text */
   text-align: center; /* Center everything */
   padding: 80px 20px; /* Adjust space inside */
@@ -733,7 +742,7 @@ nav {
 /* Individual Operation Items */
 .operation-item {
   display: inline-block; /* Aligns items side by side */
-  width: 30%; /* Sets width for each item */
+  width: 25%; /* Sets width for each item */
   margin: 20px; /* Adds spacing */
   text-align: center; /* Centers text */
 }
@@ -915,7 +924,7 @@ nav {
 }
 
 /* Individual image containers */
-.img-container {
+.flags-container {
   height: 800px; /* Matches the slider frame height */
   width: 1200px; /* Matches the slider frame width */
   position: relative; /* Ensures images are positioned inside the container */
@@ -993,4 +1002,4 @@ nav {
 
 
 
->>>>>>> 658d7a6d806133d049723c42a2ac35b5d7864ee6
+
