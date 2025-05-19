@@ -2,66 +2,48 @@
 <html lang="en">
 
 <head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Akronim&family=Almendra+Display&family=Fleur+De+Leah&family=Homemade+Apple&family=Island+Moments&family=My+Soul&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
-    </style>
-    <meta charset="UTF-8"> <!-- Sets character encoding to support special characters -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes website responsive -->
-
-    <title>CELL</title> <!-- Displays website name in browser tab -->
-    <link rel="stylesheet" href="Home.css"> <!-- Links to external CSS file -->
-    <!-- Link to Local Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-
-
-    <!-- Optional: Link to your custom CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <script src="home.js"></script>
-    <script src="../about/testing.css"></script>
-
-    <link rel="icon" href="./favicon/cell_favico.ico">
-    <!-- Favicon: This adds a small icon to the browser tab -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/home/home.css">
+    <link rel="stylesheet" href="scn_size.css">
 </head>
 
 <body>
-
+    <div id="mywidth"></div>
     <div class="wrapper">
 
 
-
-
-        <!-- Navigation Bar -->
         <nav>
             <!-- Logo Section -->
 
             <div class="logo">
-                <a href="index.html"><img src="Photos/Logo/cell_logo.png" alt="Cell logo"></a> <!--  logo image -->
+                <img src="/logo/CELL120.png" alt="cell logo">
             </div>
-            <div>
-                <h1 class=company_name>CENTURION ELECTRICAL LINES (PTY)LTD</h1>
+            <div class=company_name>
+                <h1>CENTURION ELECTRICAL LINES (PTY)LTD</h1>
             </div>
             <!-- Navigation Links -->
+            <div class="drop_menu">
+                <button class="menu">menu</button>
+                <ul class="nav-links">
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li> <!-- Link to Home page -->
-                <li><a href="services/services.html">Services</a></li> <!-- Link to Services section -->
-                <li><a href="about/About.html">About</a></li> <!-- Link to About section -->
-                <li><a href="contact/contact.html">Contact</a></li> <!-- Link to Contact page -->
-            </ul>
-
+                    <li><a href="index.html">Home</a></li> <!-- Link to Home page -->
+                    <li><a href="services/services.html">Services</a></li> <!-- Link to Services section -->
+                    <li><a href="about/About.html">About</a></li> <!-- Link to About section -->
+                    <li><a href="contact/contact.html">Contact</a></li> <!-- Link to Contact page -->
+                </ul>
+            </div>
             <!-- Contact Button -->
-            <a class="btn btn-primary btn-sm " href="tel:+2779624149" disabled role="button">call</a>
 
         </nav>
+        <!-- --------------------------------Hero Section--------------------------------------- -->
 
-
-
-
-        <!-- Hero Section -->
         <div class="hero">
             <h1>Delivering Power</h1> <!-- Main heading -->
-            <p>Overhead Transmission Line Specialist</p> <!-- Subtext -->
+            <h2>Overhead Transmission Line Specialist</h2> <!-- Subtext -->
             <p>CELL has its roots founded in the design and construction space of overhead transmission
                 lines and substations in Sub-Saharan Africa. The company was founded in 2025 by Rufus M.
                 Kgoatlha who holds experience and expertise in the design, development, investigations and
@@ -73,48 +55,30 @@
                 design and construction of energy infrastructure. Cell forges ahead while still rooted in its core
                 values of ethics, safety, environmental compliance, and product quality
             </p>
+            <wbr></wbr>
+            <div class="main_photo">
 
-        </div>
+                <!-- Slide 1 -->
+                <div class="mn-img">
+                    <img src="./Photos/Stringing/Complete overhead pole 1280 x 960.jpg">
+                </div>
 
-        <!-- ---------------------upper arch------------ -->
-        <div class="upper-arc"></div>
-
-
-        <!-- -------------------Main photo -->
-        <div class="main_photo">
-
-            <!-- Slide 1 -->
-            <div class="mn-img" style="position:relative ;width: 1399px; border-radius: 1rem;">
-                <img  src="./Photos/Stringing/Complete overhead pole 1280 x 960.jpg"
-                    alt="Slide 1">
             </div>
-
         </div>
-
-
-
-        <!-- New Section -->
-        <br>
-
-        <!-- ------------------upper arch ------------------------ -->
-        <div class="upper-arc"></div>
-
-        <!-- Field of Operation Section -->
-
-
+        <br><br><br>
         <div class="field-operation">
             <h1>FIELD OF OPERATION</h1> <!-- Section Title -->
             <div class="field-container">
                 <!-- Tower Erection -->
                 <div class="operation-item">
-                    <img src="./Photos/Tower erection/Workers and machinary 960 x 1280.jpg " alt="Tower Erection">
+                    <img class="operation_img" src="Photos/Pole  top inspections/Workers and machinary 400  400.png" alt="Tower Erection">
                     <h2>Tower Erection</h2>
                     <p>Tower erection by mobile crane | Gin-Pole | Helicopter | Tower Assembly.</p>
                 </div>
 
                 <!-- Stringing -->
                 <div class="operation-item">
-                    <img class="operation_img" src="./Photos/Stringing/Stringing best pic 1280 x 960.jpg"
+                    <img class="operation_img" src="Photos/Stringing/Stringing best pic 400 x 960.png"
                         alt="Stringing">
                     <h2>Stringing</h2>
                     <p>Stringing Phase conductor,earthwire and fibre by machines and by hand | Stringing over roads,
@@ -123,9 +87,7 @@
 
                 <!-- Line Rehabilitation -->
                 <div class="operation-item">
-                    <img class="operation_img"
-                        src="./Photos/Pole  top inspections/WhatsApp Image 2025-04-13 at 07.27.07_c46a0427.jpg"
-                        alt="Line Rehabilitation">
+                    <img class="operation_img" src="./Photos/Pole  top inspections/line reh.png" alt="Line Rehabilitation">
                     <h2>Line Rehabilitation</h2>
                     <p>Design and installation of soil retaining structures (gabions, Stabilised Outlet Berms, etc |
                         Bushclearing).</p>
@@ -133,43 +95,27 @@
 
                 <!-- Refurbishment -->
                 <div class="operation-item">
-                    <img class="operation_img" src="./Photos/refurbishment/new tower legs  961 x 960.jpg"
-                        alt="Refurbishment">
+                    <img class="operation_img" src="Photos/refurbishment/new tower legs  400 x 960.png" alt="Refurbishment">
                     <h2>Refurbishment</h2>
                     <p>Stabilizing failed structures | repairing failed structures and foundations</p>
                 </div>
 
                 <!-- Foundations -->
                 <div class="operation-item">
-                    <img class="operation_img"
-                        src="./Photos/Tower erection/tower erection with holes digged on it  960 x 1280.jpg"
-                        alt="Foundations">
+                    
+                        <img class="operation_img"
+                            src="./Photos/Tower erection/tower erection with holes digged on it  960 x 1280.jpg"
+                            alt="Foundations">
+                  
                     <h2>Foundations</h2>
                     <p>Foundation Designs | Line Surveying | V-Block settng out | Concreting | Foundation repairs</p>
                 </div>
 
 
             </div>
-
-
-            <br>
-            <br><br><br><br><br><br><br><br><br>
-
-
-
-
-
-
-            <!-- Navigation Buttons -->
-            <!--      
-             <a class="prev" onclick="changeSlide(-1)">❮</a>
-            <a class="next" onclick="changeSlide(1)">❯</a> -->
         </div>
 
-        <!-- ---------------------------------deco bottom arch----------------------------------- -->
-        <div class="bottom-arc" style="width: 100%;"></div>
-
-        <!-- Major Projects Section -->
+        <!-- --------------- Major Projects Section-------------------- --> 
         <div class="major-projects">
             <h1>MAJOR PROJECTS</h1> <!-- Section Title -->
             <div>
@@ -216,7 +162,7 @@
 
 
 
-            <div class="testing">
+            <footer>
 
                 <h1>Power Your Projects Seamlessly</h1>
                 <p>
@@ -226,15 +172,12 @@
                 </p>
                 <a class="btn btn-dark btn-sm " href="https://wa.me/27796241479" role="button">Whatsapp</a>
 
-            </div>
+            </footer>
         </div>
 
 
-
-    </div>
-
-    </div>
     </div>
 </body>
+<script src="scn-size.js"></script>
 
 </html>

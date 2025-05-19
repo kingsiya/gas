@@ -1,0 +1,130 @@
+/* --------------------the nav bar-------------------- */
+nav {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  justify-items:center ;
+  text-align: center;
+  border: 4px solid #A4FF6E;
+  color: white;
+}
+
+
+.nav-links{
+
+  text-align: left;
+  display: none;
+  width: fit-content;
+  height: 20vw;
+}
+
+ nav {
+    background-color: #A4FF6E; }
+  .logo {
+  height: 20vw;
+  width: 20vw;
+    position: relative;
+  }
+@media screen and (max-width: 650px) {
+  /* ----------logo in the nav-bar-------- */
+  nav {
+    background-color: #A4FF6E; }
+  .logo {
+  height: 20vw;
+  width: 20vw;
+    
+    transform: translateY(17%);
+  
+   
+  }
+  /* ---------------logo-------------------- */
+.logo>img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* ----------- the company name------------------- */
+.company_name{
+/* background-color: rgb(75, 143, 202); */
+  width: 50%;
+  text-wrap:wrap;
+}
+/* -------the .drop_menu------------------------------- */
+.drop_menu{
+  display: inline-block;
+}
+
+
+
+  .menu{
+    width: 14vw;
+
+    background-color: black;
+    color: #A4FF6E;
+    border-radius: 15%;
+    box-shadow: 5px 5px 3px #05e02a;
+  }
+  .drop_menu:hover .nav-links{
+    display: block;
+transition: all ease 3s; 
+  }
+
+
+  /* ------------the style when hover on the menu button ------ */
+  .drop_menu:hover .menu{
+    transition: all ease-in-out 2s;
+    background-color:#A4FF6E;
+    /* color: #A4FF6E; */
+    position: relative;
+    top: 20vw;
+    left: 10px;
+  }
+
+
+
+
+
+  .drop_menu:hover .nav-links{
+    height: fit-content;
+    position: relative;
+    top: 10vw;
+    background-color: #A4FF6E;
+  }
+  .nav-links:hover{
+    position: relative;
+    top: 100px;
+
+  }
+  .nav-links >li{
+    color: #bbb;
+    position: relative;
+    right: 2vw;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    /* border: red 2px solid; */
+  }
+  /* --------- the list in the drop menu------------------------ */
+ .nav-links a{
+  display: block;
+  width: 15vw;
+    color: #e61010;
+    text-decoration: none;
+    /* border: #0c0c0c 2px solid; */
+  }
+  
+  .nav-links a:hover ,.nav-links a:hover{
+    //  border: solid white; 
+    text-decoration: underline;
+    width: 120%;
+transition: all ease-in-out 1500ms;
+    color: #24b95d;
+    
+  }
+  }
+
+ 
+/*# sourceMappingURL=main.css.map */

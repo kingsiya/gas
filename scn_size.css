@@ -1,0 +1,94 @@
+:root{
+    --mobile:576px;
+
+}
+#mywidth{
+    margin: 0 auto;
+    text-align: center;
+    position: sticky;
+    bottom: 2px;
+    color: #311d4b;
+    font-size: larger;
+    background-color: #5e5c5c;
+    
+}
+@media screen and (max-width:1600px) {
+     #mywidth{
+        color: rgb(100, 86, 125);
+       
+        background-color: rgb(32, 218, 85);
+    }
+    #mywidth::before{
+        content:'Desktop-------';
+        color: #ff2317;
+    }
+   
+    
+}
+
+@media screen and (max-width:1200px) {
+    #mywidth{
+        color: rgb(247, 12, 134);
+        background-color: rgba(32, 144, 218, 0.611);
+    }
+    
+     #mywidth::before{
+        content:'Lapto-----';
+        
+        color: #ffec17;
+    }
+}
+
+@media screen and (max-width:992px){
+    #mywidth{
+        color: rgb(12, 247, 90);
+       
+        background-color: goldenrod;
+    }
+    
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    #mywidth{
+        color: rgb(30, 201, 210);
+        background-color: #311d4b;
+    
+        
+    }
+   
+     #mywidth::before{
+        content:'Tablet-----';
+        
+        color: #ffec17;
+    }
+         
+    }
+
+
+
+
+@media screen and (max-width:576px){
+
+
+    /* ----------logo in the nav-bar-------- */
+
+    #mywidth{
+        color: chocolate;
+        background-color: blue;
+        
+    }
+     #mywidth::before{
+        content:'mobile-----';
+        
+        color: #ffec17;
+    }
+
+
+
+}
